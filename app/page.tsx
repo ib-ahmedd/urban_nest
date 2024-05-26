@@ -1,9 +1,10 @@
-import Hero from "./components/Hero";
+import { Hero, WorkWIthUs } from "./components";
 
 function Home() {
   return (
     <main>
       <Hero />
+      <WorkWIthUs />
     </main>
   );
 }

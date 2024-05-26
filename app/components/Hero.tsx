@@ -2,8 +2,8 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <section className="hero width_parent h-screen bg-home-hero-bg bg-cover bg-center bg-no-repeat">
-      <div className="width_container h-full flex flex-col gap-8 md:gap-12 justify-center mt-8 md:mt-24 z-10">
+    <section className="hero width_parent h-screen xl:h-[120vh] bg-home-hero-bg bg-cover bg-center bg-no-repeat">
+      <div className="width_container h-full flex flex-col gap-12 md:gap-12 mt-32 md:mt-64 z-10">
         <p className="text-site-yellow font-monteserat font-bold text-2xl">
           Build Your Dream
         </p>
