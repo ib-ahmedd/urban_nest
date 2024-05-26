@@ -4,3 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.parent {
+  @apply w-full flex justify-center;
+}
+
+.container {
+  @apply w-full xl:w-4/5 px-4 xl:px-0;
+}

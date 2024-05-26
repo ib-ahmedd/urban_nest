@@ -26,6 +26,7 @@ module.exports = {
       colors: {
         "site-yellow": "#ffc03d",
         "site-blue": "#212d45",
+        "light-gray": "#ebebeb",
       },
       backgroundImage: {
         "home-hero-bg": "url('/images/home/hero/bg-img.jpg')",

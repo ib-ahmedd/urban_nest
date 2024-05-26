@@ -10,7 +10,7 @@ export const metadata = {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html className="w-full overflow-x-hidden" lang="en">
-      <body className="w-full overflow-x-hidden">
+      <body className="w-full overflow-x-hidden bg-slate-800">
         <Navbar />
         {children}
         <Footer />
