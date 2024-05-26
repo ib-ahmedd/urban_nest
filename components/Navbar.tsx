@@ -21,8 +21,8 @@ function Navbar() {
     setNavOpen(false);
   }, [pathname]);
   return (
-    <nav className="parent md:border-b border-white">
-      <div className="container hidden md:flex flex-col gap-8 py-4">
+    <nav className="absolute width_parent md:border-b border-white z-20">
+      <div className="width_container hidden md:flex flex-col gap-8 py-4">
         <div className="flex justify-between">
           <img src="/images/logo/logo.png" alt="site logo" className="w-40" />
           <p className="text-site-yellow">Make a call: +1 (212) 255-5511</p>
@@ -38,15 +38,13 @@ function Navbar() {
             <NavLinks key={item.title} {...item} />
           ))}
           <div className="flex-1 flex justify-end">
-            <button className="text-site-blue bg-site-yellow w-52 py-3">
-              GET A QUOTE
-            </button>
+            <button className="solid_btn">GET A QUOTE</button>
           </div>
         </div>
       </div>
 
       <div className="w-full p-4 flex flex-col items-center md:hidden">
-        <div className="w-full flex justify-between items-center">
+        <div className="width_container flex justify-between items-center">
           <img
             src="/images/logo/logo.png"
             alt="site logo"

@@ -5,10 +5,31 @@
 @tailwind components;
 @tailwind utilities;
 
-.parent {
+h1 {
+  @apply font-monteserat font-bold text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-white;
+}
+
+.width_parent {
   @apply w-full flex justify-center;
 }
 
-.container {
-  @apply w-full xl:w-4/5 px-4 xl:px-0;
+.width_container {
+  @apply w-full md:w-full xl:w-4/5 px-4 xl:px-0;
+}
+
+.solid_btn {
+  @apply text-site-blue bg-site-yellow w-52 py-3 text-center;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #212d45;
+  opacity: 0.85;
 }
