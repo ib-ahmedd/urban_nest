@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import WorkWIthUs from "./WorkWIthUs";
+import BuildDream from "./BuildDream";
 import Sustainability from "./Sustainability";
 
-export { Hero, WorkWIthUs, Sustainability };
+export { Hero, BuildDream, Sustainability };

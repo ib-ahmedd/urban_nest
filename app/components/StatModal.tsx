@@ -7,10 +7,10 @@ function StatsModal() {
   return (
     <article className="flex flex-col md:flex-row xl:-mt-40 w-full xl:w-4/5">
       <div className="md:flex-1 flex flex-col gap-8 p-8 md:p-12 shrink bg-site-yellow z-20">
-        <p className="sub_heading">Build Your Dream</p>
-        <p className="font-bold text-3xl md:text-5xl text-site-blue">
+        <h2 className="sub_heading">Build Your Dream</h2>
+        <h3 className="font-bold text-3xl md:text-5xl text-site-blue">
           25 Years Of Undefeated Success
-        </p>
+        </h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget

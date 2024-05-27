@@ -19,3 +19,8 @@ export interface CardContainerProps {
   heading?: string;
   subHeading?: string;
 }
+
+export interface AddressCardProps {
+  country: string;
+  address: string;
+}

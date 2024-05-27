@@ -1,10 +1,10 @@
-import { Hero, Sustainability, WorkWIthUs } from "./components";
+import { Hero, Sustainability, BuildDream } from "./components";
 
 function Home() {
   return (
-    <main>
+    <main className="flex flex-col items-center gap-20">
       <Hero />
-      <WorkWIthUs />
+      <BuildDream />
       <Sustainability />
     </main>
   );

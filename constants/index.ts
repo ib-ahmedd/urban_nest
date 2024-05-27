@@ -4,7 +4,7 @@ import {
   faPenRuler,
   faRecycle,
 } from "@fortawesome/free-solid-svg-icons";
-import { CardProps, NavLinkProp, StatProp } from "@types";
+import { AddressCardProps, CardProps, NavLinkProp, StatProp } from "@types";
 
 export const navLinksArray: NavLinkProp[] = [
   { path: "/", title: "Home" },
@@ -35,4 +35,10 @@ export const homeSusListArray = [
   { icon: faClock, title: "Project On Time" },
   { icon: faDisplay, title: "Modern Technology" },
   { icon: faPenRuler, title: "Latest Designs" },
+];
+
+export const addressCardArray: AddressCardProps[] = [
+  { country: "Canada", address: "4446 Noble Rd, Cortes Island" },
+  { country: "United States", address: "2367 Speers Road, Brampton" },
+  { country: "Australia", address: "3851 49th Avenue, Kugluktuk" },
 ];
