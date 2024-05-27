@@ -3,10 +3,8 @@ import Link from "next/link";
 function Hero() {
   return (
     <section className="hero width_parent h-screen xl:h-[120vh] bg-home-hero-bg bg-cover bg-center bg-no-repeat">
-      <div className="width_container h-full flex flex-col gap-12 md:gap-12 mt-32 md:mt-64 z-10">
-        <p className="text-site-yellow font-monteserat font-bold text-2xl">
-          Build Your Dream
-        </p>
+      <div className="width_container h-full flex flex-col gap-12 md:gap-12 mt-32 md:mt-52 xl:mt-64 z-10">
+        <p className="text-site-yellow build">Build Your Dream</p>
         <h1>Vision Got Larger</h1>
         <p className="text-white w-full lg:w-7/12 text-sm sm:text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -21,7 +19,7 @@ function Hero() {
           </Link>
           <Link
             href="/contact"
-            className="text-white border border-white w-52 py-3 text-center"
+            className="text-white border border-white w-52 py-3 text-center transition duration-200 hover:bg-site-yellow hover:text-site-blue hover:border-site-yellow"
           >
             CONTACT US
           </Link>
