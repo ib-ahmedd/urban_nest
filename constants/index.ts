@@ -1,3 +1,9 @@
+import {
+  faClock,
+  faDisplay,
+  faPenRuler,
+  faRecycle,
+} from "@fortawesome/free-solid-svg-icons";
 import { CardProps, NavLinkProp, StatProp } from "@types";
 
 export const navLinksArray: NavLinkProp[] = [
@@ -22,4 +28,11 @@ export const homeServicesArray: CardProps[] = [
   { image: "/images/home/services/img-4.jpg", title: "Conslutancy" },
   { image: "/images/home/services/img-5.jpg", title: "Architecture" },
   { image: "/images/home/services/img-6.jpg", title: "Crane Service" },
+];
+
+export const homeSusListArray = [
+  { icon: faRecycle, title: "Sustainablility" },
+  { icon: faClock, title: "Project On Time" },
+  { icon: faDisplay, title: "Modern Technology" },
+  { icon: faPenRuler, title: "Latest Designs" },
 ];

@@ -13,6 +13,8 @@ module.exports = {
       md: "850px",
       // => @media (min-width: 768px) { ... }
 
+      slg: "950px",
+
       lg: "1024px",
       // => @media (min-width: 1024px) { ... }
 
@@ -31,8 +33,10 @@ module.exports = {
       },
       backgroundImage: {
         "home-hero-bg": "url('/images/home/hero/bg-img.jpg')",
-        "home-about-l-bg": "url('/images/home/about/l-bg-img.jpg')",
-        "home-about-r-bg": "url('/images/home/about/r-bg-img.jpg')",
+        "home-sustainability-l-bg":
+          "url('/images/home/sustainability/l-bg-img.jpg')",
+        "home-sustainability-r-bg":
+          "url('/images/home/sustainability/r-bg-img.jpg')",
         "about-stats-bg": "url('/images/about/stats/bg-img.jpg')",
         "generic-hero": "url('/images/generic/hero/bg-img.jpg')",
 
