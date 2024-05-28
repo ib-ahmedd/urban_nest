@@ -1,4 +1,10 @@
-import { Hero, Sustainability, BuildDream, Founders } from "./components";
+import {
+  Hero,
+  Sustainability,
+  BuildDream,
+  Founders,
+  Testimonials,
+} from "./components";
 
 function Home() {
   return (
@@ -7,6 +13,7 @@ function Home() {
       <BuildDream />
       <Sustainability />
       <Founders />
+      <Testimonials />
     </main>
   );
 }

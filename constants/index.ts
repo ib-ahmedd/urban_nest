@@ -10,6 +10,7 @@ import {
   CardProps,
   NavLinkProp,
   StatProp,
+  TestimonialsCardProps,
 } from "@types";
 
 export const navLinksArray: NavLinkProp[] = [
@@ -87,5 +88,28 @@ export const homeProjectsArray: BgImgCardProps[] = [
     title: "Deep Sea Bridge",
     note: "Athens, GR",
     background: "/images/home/latest/img-4.jpg",
+  },
+];
+
+export const homeTestimonialsArray: TestimonialsCardProps[] = [
+  {
+    image: "/images/home/testimonials/profile-1.png",
+    occupation: "Engineering Manager",
+    clientName: "Alice Howard",
+  },
+  {
+    image: "/images/home/testimonials/profile-2.png",
+    occupation: "Interior Designer",
+    clientName: "Nathan Marshall",
+  },
+  {
+    image: "/images/home/testimonials/profile-3.png",
+    occupation: "Architect",
+    clientName: "Ema Romero",
+  },
+  {
+    image: "/images/home/testimonials/profile-4.png",
+    occupation: "Manager",
+    clientName: "Ann Smith",
   },
 ];

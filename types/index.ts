@@ -31,3 +31,9 @@ export interface BgImgCardProps {
   title: string;
   note: string;
 }
+
+export interface TestimonialsCardProps {
+  image: string;
+  occupation: string;
+  clientName: string;
+}
