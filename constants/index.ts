@@ -125,3 +125,46 @@ export const FAQsArray = [
     question: "3. How to create cities and communites that solve?",
   },
 ];
+
+export const projectsArray: BgImgCardProps[] = [
+  {
+    title: "Science Lab Building",
+    note: "New York, USA",
+    background: "/images/projects/latest-work/img-1.jpg",
+  },
+  {
+    title: "Long Gate Bridge",
+    note: "Malmo, SE",
+    background: "/images/projects/latest-work/img-2.jpg",
+  },
+  {
+    title: "Enix Lawyer Building",
+    note: "Toronto, CA",
+    background: "/images/projects/latest-work/img-3.jpg",
+  },
+  {
+    title: "Deep Sea Bridge",
+    note: "Athens, GR",
+    background: "/images/projects/latest-work/img-4.jpg",
+  },
+  {
+    title: "Car Tech Building",
+    note: "Denver, USA",
+    background: "/images/projects/latest-work/img-5.jpg",
+  },
+  {
+    title: "Nctech Building",
+    note: "Texas, USA",
+    background: "/images/projects/latest-work/img-6.jpg",
+  },
+  {
+    title: "Vax Tech Building",
+    note: "Ontario, CA",
+    background: "/images/projects/latest-work/img-7.jpg",
+  },
+  {
+    title: "Food Lab Building",
+    note: "Athens, GR",
+    background: "/images/projects/latest-work/img-8.jpg",
+  },
+];

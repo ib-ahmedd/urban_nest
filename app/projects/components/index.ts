@@ -1,3 +1,4 @@
 import Hero from "./Hero";
+import ProjectsSec from "./ProjectsSec";
 
-export { Hero };
+export { Hero, ProjectsSec };
