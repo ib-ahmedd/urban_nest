@@ -29,7 +29,7 @@ module.exports = {
         "site-yellow": "#ffc03d",
         "site-blue": "#212d45",
         "site-gray": "#666",
-        "light-gray": "#F5F5F5",
+        "light-gray": "#ebebeb",
       },
       backgroundImage: {
         "home-hero-bg": "url('/images/home/hero/bg-img.jpg')",

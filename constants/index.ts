@@ -66,3 +66,26 @@ export const foundersCardsArray: BgImgCardProps[] = [
     background: "/images/home/founders/bg-3.jpg",
   },
 ];
+
+export const homeProjectsArray: BgImgCardProps[] = [
+  {
+    title: "Science Lab Building",
+    note: "New York, USA",
+    background: "/images/home/latest/img-1.jpg",
+  },
+  {
+    title: "Long Gate Bridge",
+    note: "Malmo, SE",
+    background: "/images/home/latest/img-2.jpg",
+  },
+  {
+    title: "Enix Lawyer Building",
+    note: "Toronto, CA",
+    background: "/images/home/latest/img-3.jpg",
+  },
+  {
+    title: "Deep Sea Bridge",
+    note: "Athens, GR",
+    background: "/images/home/latest/img-4.jpg",
+  },
+];
