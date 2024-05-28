@@ -1,3 +1,4 @@
+import { Clients } from "@components";
 import { Hero, ProjectsSec } from "./components";
 
 function Projects() {
@@ -5,6 +6,7 @@ function Projects() {
     <main>
       <Hero />
       <ProjectsSec />
+      <Clients />
     </main>
   );
 }
