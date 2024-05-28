@@ -40,15 +40,6 @@ module.exports = {
         "about-stats-bg": "url('/images/about/stats/bg-img.jpg')",
         "generic-hero": "url('/images/generic/hero/bg-img.jpg')",
 
-        "founders-bg-1": "url('/images/home/founders/bg-1.jpg')",
-        "founders-bg-2": "url('/images/home/founders/bg-2.jpg')",
-        "founders-bg-3": "url('/images/home/founders/bg-3.jpg')",
-
-        "latest-bg-1": "url('/images/home/latest/img-1.jpg')",
-        "latest-bg-2": "url('/images/home/latest/img-2.jpg')",
-        "latest-bg-3": "url('/images/home/latest/img-3.jpg')",
-        "latest-bg-4": "url('/images/home/latest/img-4.jpg')",
-
         "latest-work-bg1": "url('/images/projects/latest-work/img-1.jpg')",
         "latest-work-bg2": "url('/images/projects/latest-work/img-2.jpg')",
         "latest-work-bg3": "url('/images/projects/latest-work/img-3.jpg')",

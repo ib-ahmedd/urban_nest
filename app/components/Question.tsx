@@ -6,7 +6,7 @@ function Question({ question, open, id, handleOpen }: questionProps) {
   return (
     <>
       <button
-        className="w-full flex justify-between font-bold text-sm md:text-base text-site-blue p-3 text-left"
+        className="w-full flex justify-between font-bold text-sm md:text-base text-site-blue p-3 text-left border-b border-[#999]"
         onClick={() => {
           handleOpen(id);
         }}
@@ -17,10 +17,10 @@ function Question({ question, open, id, handleOpen }: questionProps) {
         </span>
       </button>
       <p
-        className={`w-full overflow-hidden`}
+        className={`w-full overflow-hidden px-3 ${open === id && "py-3"}`}
         style={{
           borderBottom: "1px solid #999",
-          height: open === id ? "5em" : "0",
+          height: open === id ? "7em" : "0",
           transition: "0.5s",
         }}
       >
