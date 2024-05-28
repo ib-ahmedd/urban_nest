@@ -24,3 +24,10 @@ export interface AddressCardProps {
   country: string;
   address: string;
 }
+
+export interface BgImgCardProps {
+  specs?: string;
+  background: string;
+  title: string;
+  note: string;
+}

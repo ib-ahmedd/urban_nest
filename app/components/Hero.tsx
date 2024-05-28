@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <section className="overlay width_parent h-screen xl:h-[120vh] bg-home-hero-bg bg-cover bg-center bg-no-repeat">
+    <section className="overlay width_parent h-[70vh] md:h-screen xl:h-[120vh] bg-home-hero-bg bg-cover bg-center bg-no-repeat">
       <div className="width_container h-full flex flex-col gap-12 md:gap-12 mt-32 md:mt-52 xl:mt-64 z-10">
         <h2 className="text-site-yellow build">Build Your Dream</h2>
         <h1>Vision Got Larger</h1>
