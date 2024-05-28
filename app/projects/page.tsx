@@ -1,5 +1,4 @@
-import { Clients } from "@components";
-import { Hero, ProjectsSec } from "./components";
+import { Hero, ProjectsSec, Clients } from "./components";
 
 function Projects() {
   return (

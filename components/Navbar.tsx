@@ -21,7 +21,7 @@ function Navbar() {
     setNavOpen(false);
   }, [pathname]);
   return (
-    <nav className="absolute width_parent md:border-b border-white z-20">
+    <nav className="absolute width_parent md:border-b border-white z-20 ">
       <div className="width_container hidden md:flex flex-col gap-8 py-4">
         <div className="flex justify-between">
           <img src="/images/logo/logo.png" alt="site logo" className="w-40" />
@@ -59,9 +59,9 @@ function Navbar() {
             <FontAwesomeIcon icon={navOpen ? faClose : faBars} />
           </button>
         </div>
-        <div className="w-full overflow-y-hidden">
+        <div className={`w-full ${!navOpen && "overflow-y-hidden"}`}>
           <div
-            className={`flex px-2 flex-col w-full bg-white transition ${
+            className={`flex px-2 flex-col w-full bg-white transition shadow-lg ${
               navOpen ? "translate-y-0" : "-translate-y-full"
             }`}
           >
