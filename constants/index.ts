@@ -168,3 +168,12 @@ export const projectsArray: BgImgCardProps[] = [
     background: "/images/projects/latest-work/img-8.jpg",
   },
 ];
+
+export const servicesPageArray: CardProps[] = [
+  { image: "/images/services/img-1.jpg", title: "Land Minning" },
+  { image: "/images/services/img-2.jpg", title: "Building Staffs" },
+  { image: "/images/services/img-3.jpg", title: "Material Supply" },
+  { image: "/images/services/img-4.jpg", title: "Conslutancy" },
+  { image: "/images/services/img-5.jpg", title: "Architecture" },
+  { image: "/images/services/img-6.jpg", title: "Crane Service" },
+];
