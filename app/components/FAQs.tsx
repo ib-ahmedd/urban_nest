@@ -12,7 +12,7 @@ function FAQs() {
     setOpen(id);
   }
   return (
-    <section className="width_parent mt-40 pb-12 lg:pb-0 bg-[#F5F5F5]">
+    <section className="width_parent mt-12 md:mt-40 pb-12 lg:pb-0 bg-[#F5F5F5]">
       <div className="width_container flex flex-col slg:flex-row justify-between">
         <FAQsForm />
         <div className="w-full slg:w-2/5 mt-8 slg:mt-20 flex flex-col gap-8">

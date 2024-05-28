@@ -24,7 +24,9 @@ function Navbar() {
     <nav className="absolute width_parent md:border-b border-white z-20 ">
       <div className="width_container hidden md:flex flex-col gap-8 py-4">
         <div className="flex justify-between">
-          <img src="/images/logo/logo.png" alt="site logo" className="w-40" />
+          <Link href="/">
+            <img src="/images/logo/logo.png" alt="site logo" className="w-40" />
+          </Link>
           <p className="text-site-yellow">Make a call: +1 (212) 255-5511</p>
           <div className="flex gap-6 text-2xl text-site-yellow">
             <FontAwesomeIcon icon={faSquareFacebook} />

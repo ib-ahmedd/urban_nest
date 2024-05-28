@@ -3,7 +3,7 @@ import TestimonialsCard from "./TestimonialsCard";
 
 function Testimonials() {
   return (
-    <section className="width_parent flex-col items-center mt-20">
+    <section className="width_parent flex-col items-center mt-12 md:mt-20">
       <div className="w-full text-center">
         <h2 className="mb-6">What Our Clients Say</h2>
         <h3>Testimonials</h3>

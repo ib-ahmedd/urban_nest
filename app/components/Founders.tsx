@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Founders() {
   return (
-    <section className="w-full flex flex-col gap-20 items-center mt-20">
+    <section className="w-full flex flex-col gap-20 items-center mt-12 md:mt-20">
       <div className="w-full md:w-1/2 px-4 md:px-0 text-center">
         <h2 className="text-site-blue">About Founders</h2>
         <h3>

@@ -1,6 +1,9 @@
 import {
+  faBuilding,
+  faBuildingColumns,
   faClock,
   faDisplay,
+  faHouse,
   faPenRuler,
   faRecycle,
 } from "@fortawesome/free-solid-svg-icons";
@@ -176,4 +179,10 @@ export const servicesPageArray: CardProps[] = [
   { image: "/images/services/img-4.jpg", title: "Conslutancy" },
   { image: "/images/services/img-5.jpg", title: "Architecture" },
   { image: "/images/services/img-6.jpg", title: "Crane Service" },
+];
+
+export const aboutArray = [
+  { icon: faBuilding, heading: "Building Staffs" },
+  { icon: faBuildingColumns, heading: "History Emphasis" },
+  { icon: faHouse, heading: "Economic Outcomes" },
 ];
