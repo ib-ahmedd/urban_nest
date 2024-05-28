@@ -21,6 +21,14 @@ h3 {
   @apply font-monteserat font-bold text-3xl xl:text-4xl;
 }
 
+input {
+  @apply text-site-gray p-3 rounded-sm;
+}
+
+textarea {
+  @apply text-site-gray p-3 h-28 rounded-sm;
+}
+
 .width_parent {
   @apply w-full flex justify-center;
 }

@@ -4,6 +4,7 @@ import {
   BuildDream,
   Founders,
   Testimonials,
+  FAQs,
 } from "./components";
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <Sustainability />
       <Founders />
       <Testimonials />
+      <FAQs />
     </main>
   );
 }

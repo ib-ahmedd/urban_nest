@@ -113,3 +113,15 @@ export const homeTestimonialsArray: TestimonialsCardProps[] = [
     clientName: "Ann Smith",
   },
 ];
+
+export const FAQsArray = [
+  {
+    id: 1,
+    question: "1. How to create cities and communites that solve?",
+  },
+  { id: 2, question: "2. Construction of the winning $45 milion?" },
+  {
+    id: 3,
+    question: "3. How to create cities and communites that solve?",
+  },
+];

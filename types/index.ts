@@ -37,3 +37,10 @@ export interface TestimonialsCardProps {
   occupation: string;
   clientName: string;
 }
+
+export interface questionProps {
+  question: string;
+  id: number;
+  open: number;
+  handleOpen(id: number): void;
+}
