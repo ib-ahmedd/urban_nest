@@ -24,7 +24,7 @@ function AboutUs() {
           <button className="solid_btn">OUR SERVICES</button>
         </div>
 
-        <div className="h-full flex flex-col justify-center w-full md:w-[45%]">
+        <div className="h-full flex flex-col gap-8 justify-center w-full md:w-[45%]">
           {aboutArray.map((item) => (
             <div
               key={item.heading}

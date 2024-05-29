@@ -1,17 +1,22 @@
 import {
+  faAward,
   faBuilding,
   faBuildingColumns,
   faClock,
+  faDiagramProject,
   faDisplay,
+  faDollar,
   faHouse,
   faPenRuler,
   faRecycle,
+  faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   AddressCardProps,
   BgImgCardProps,
   CardProps,
   NavLinkProp,
+  StatItemProps,
   StatProp,
   TestimonialsCardProps,
 } from "@types";
@@ -185,4 +190,11 @@ export const aboutArray = [
   { icon: faBuilding, heading: "Building Staffs" },
   { icon: faBuildingColumns, heading: "History Emphasis" },
   { icon: faHouse, heading: "Economic Outcomes" },
+];
+
+export const aboutStatsArray: StatItemProps[] = [
+  { icon: faDollar, stat: 325, note: "Revenue in 2017 (Million)" },
+  { icon: faUsers, stat: 525, note: "Collaegues & Counting" },
+  { icon: faDiagramProject, stat: 302, note: "Successfully Project" },
+  { icon: faAward, stat: 25, note: "Year of experience" },
 ];

@@ -1,3 +1,5 @@
+import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
+
 export interface NavLinkProp {
   path: string;
   title: string;
@@ -43,4 +45,10 @@ export interface questionProps {
   id: number;
   open: number;
   handleOpen(id: number): void;
+}
+
+export interface StatItemProps {
+  icon: IconDefinition;
+  title: string;
+  note: string;
 }
