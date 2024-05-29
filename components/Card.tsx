@@ -1,8 +1,12 @@
 import { CardProps } from "@types";
 
-function Card({ image, title, paragraph }: CardProps) {
+function Card({ image, title, paragraph, width }: CardProps) {
   return (
-    <article className="w-fit md:w-[32%] mb-8 flex flex-col gap-4">
+    <article
+      className={`w-fit ${
+        width ? width : "md:w-[32%]"
+      } mb-8 flex flex-col gap-4`}
+    >
       <img src={image} alt={title} className="w-full" />
       <h3 className="text-site-blue font-monteserat font-bold text-2xl">
         {title}

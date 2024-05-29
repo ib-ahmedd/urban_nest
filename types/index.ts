@@ -13,11 +13,14 @@ export interface StatProp {
 export interface CardProps {
   image: string;
   title: string;
+  width?: string;
   paragraph?: string;
 }
 
 export interface CardContainerProps {
   array: CardProps[];
+  width?: string;
+  flexAlign?: string;
   heading?: string;
   subHeading?: string;
 }
@@ -49,6 +52,6 @@ export interface questionProps {
 
 export interface StatItemProps {
   icon: IconDefinition;
-  title: string;
+  stat: number;
   note: string;
 }

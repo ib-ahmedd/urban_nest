@@ -3,6 +3,7 @@ import {
   AboutUs,
   Clients,
   Hero,
+  OurTeam,
   SustainabilityBgs,
 } from "./components";
 
@@ -12,6 +13,7 @@ function About() {
       <Hero />
       <AboutUs />
       <AboutStats />
+      <OurTeam />
       <SustainabilityBgs />
       <Clients />
     </main>

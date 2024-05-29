@@ -198,3 +198,26 @@ export const aboutStatsArray: StatItemProps[] = [
   { icon: faDiagramProject, stat: 302, note: "Successfully Project" },
   { icon: faAward, stat: 25, note: "Year of experience" },
 ];
+
+export const ourTeamArray: CardProps[] = [
+  {
+    image: "/images/about/workers/worker-1.jpeg",
+    title: "Mike Rich",
+    paragraph: "Lead Architect",
+  },
+  {
+    image: "/images/about/workers/worker-2.jpeg",
+    title: "Jenny Smith",
+    paragraph: "Head Engineer (US)",
+  },
+  {
+    image: "/images/about/workers/worker-3.jpeg",
+    title: "George Doe",
+    paragraph: "Head Engineer (CN)",
+  },
+  {
+    image: "/images/about/workers/worker-4.jpeg",
+    title: "Maria Jay",
+    paragraph: "Head Engineer (AU)",
+  },
+];
