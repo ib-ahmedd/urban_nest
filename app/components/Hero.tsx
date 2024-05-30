@@ -25,6 +25,7 @@ function Hero() {
             className="solid_btn"
             data-aos="fade-down"
             data-aos-delay="400"
+            data-aos-offset="-100"
           >
             OUR SERVICES
           </Link>
@@ -33,6 +34,7 @@ function Hero() {
             className="text-white border border-white w-52 py-3 text-center transition duration-200 hover:bg-site-yellow hover:text-site-blue hover:border-site-yellow"
             data-aos="fade-down"
             data-aos-delay="400"
+            data-aos-offset="-100"
           >
             CONTACT US
           </Link>
