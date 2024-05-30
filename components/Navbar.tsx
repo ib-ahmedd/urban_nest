@@ -12,6 +12,7 @@ import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import ResNavLink from "./ResNavLink";
 
 function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
@@ -63,17 +64,12 @@ function Navbar() {
         </div>
         <div className={`w-full ${!navOpen && "overflow-y-hidden"}`}>
           <div
-            className={`flex px-2 flex-col w-full bg-white transition shadow-lg ${
+            className={`flex p-2 flex-col w-full bg-white transition shadow-lg ${
               navOpen ? "translate-y-0" : "-translate-y-full"
             }`}
           >
             {navLinksArray.map((item) => (
-              <Link
-                href={item.path}
-                className="py-2 hover:bg-slate-200 border-b border-light-gray"
-              >
-                {item.title}
-              </Link>
+              <ResNavLink key={item.title} {...item} />
             ))}
           </div>
         </div>
