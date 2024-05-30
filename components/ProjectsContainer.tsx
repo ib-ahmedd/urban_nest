@@ -5,7 +5,11 @@ function ProjectsContainer() {
   return (
     <div className="flex flex-wrap">
       {homeProjectsArray.map((item) => (
-        <BgImgCard specs="w-full md:w-1/4 h-[30em]" {...item} />
+        <BgImgCard
+          specs="w-full md:w-1/4 h-[30em]"
+          {...item}
+          animation="fade-left"
+        />
       ))}
     </div>
   );

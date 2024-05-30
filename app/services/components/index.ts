@@ -1,5 +1,4 @@
-import Hero from "./Hero";
 import ServicesSec from "./ServicesSec";
-import { Clients } from "@components";
+import { Clients, GenericHero } from "@components";
 
-export { Hero, ServicesSec, Clients };
+export { GenericHero, ServicesSec, Clients };

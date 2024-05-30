@@ -9,6 +9,7 @@ function ServicesSec() {
           array={servicesPageArray}
           heading="Our Services"
           subHeading="Quality Services"
+          animation="zoom-in"
         />
       </div>
     </section>

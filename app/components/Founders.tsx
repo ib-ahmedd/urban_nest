@@ -17,7 +17,11 @@ function Founders() {
         <div className="w-1/2 h-full absolute left-0 top-0 bg-[#F5F5F5]" />
         <div className="width_container flex flex-col md:flex-row gap-4 z-10">
           {foundersCardsArray.map((item) => (
-            <BgImgCard specs="w-full md:w-1/3 h-[30em]" {...item} />
+            <BgImgCard
+              specs="w-full md:w-1/3 h-[30em]"
+              {...item}
+              animation="fade-up"
+            />
           ))}
         </div>
         <Link href="/about" className="z-10 solid_btn">

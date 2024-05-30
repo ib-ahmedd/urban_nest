@@ -1,4 +1,4 @@
-import Hero from "./Hero";
+import { GenericHero } from "@components";
 import InfoSec from "./InfoSec";
 
-export { Hero, InfoSec };
+export { GenericHero, InfoSec };

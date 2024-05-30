@@ -5,7 +5,7 @@ import { SustainabilityBgs } from "@components";
 
 function Sustainability() {
   return (
-    <section className="w-full flex flex-col gap-12 md:gap-20">
+    <section className="mt-12 md:mt-20 w-full flex flex-col gap-12 md:gap-20">
       <SustainabilityBgs />
 
       <div className="width_parent">

@@ -1,16 +1,27 @@
+"use client";
 import {
   AboutStats,
   AboutUs,
   Clients,
-  Hero,
+  GenericHero,
   OurTeam,
   SustainabilityBgs,
 } from "./components";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function About() {
+  useEffect(() => {
+    Aos.init({
+      duration: 200,
+      easing: "ease-in-out",
+    });
+    Aos.refresh();
+  }, []);
   return (
     <main>
-      <Hero />
+      <GenericHero title="About Us" />
       <AboutUs />
       <AboutStats />
       <OurTeam />

@@ -11,11 +11,11 @@ function SustainabilityBgs() {
           <h3 className="text-white">
             Committed To Keep People Healthy & Safe
           </h3>
-          <p className="text-white">
+          <p className="text-white" data-aos="fade-right">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque in ipsum id orci porta dapibus.
           </p>
-          <Link href="/contact" className="solid_btn mt-8">
+          <Link href="/contact" className="solid_btn mt-8" data-aos="fade-up">
             GET IN TOUCH
           </Link>
         </div>
@@ -32,6 +32,8 @@ function SustainabilityBgs() {
               <li
                 key={item.title}
                 className="text-xl font-bold text-site-blue my-4"
+                data-aos="fade-right"
+                data-aos-delay={item.delay}
               >
                 <span className="mr-4">
                   <FontAwesomeIcon icon={item.icon} />

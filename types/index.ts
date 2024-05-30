@@ -15,6 +15,8 @@ export interface CardProps {
   title: string;
   width?: string;
   paragraph?: string;
+  delay?: string;
+  animation?: string;
 }
 
 export interface CardContainerProps {
@@ -23,24 +25,30 @@ export interface CardContainerProps {
   flexAlign?: string;
   heading?: string;
   subHeading?: string;
+  delay?: string;
+  animation?: string;
 }
 
 export interface AddressCardProps {
   country: string;
   address: string;
+  delay?: string;
 }
 
 export interface BgImgCardProps {
-  specs?: string;
   background: string;
   title: string;
   note: string;
+  specs?: string;
+  animation?: string;
+  delay?: string;
 }
 
 export interface TestimonialsCardProps {
   image: string;
   occupation: string;
   clientName: string;
+  animation: string;
 }
 
 export interface questionProps {

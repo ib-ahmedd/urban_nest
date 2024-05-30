@@ -8,21 +8,29 @@ function Clients() {
           src="/images/our-clients/logo-1.svg"
           alt="client logo"
           className="w-2/5 md:w-[unset]"
+          data-aos="fade-left"
+          data-aos-delay="0"
         />
         <img
           src="/images/our-clients/logo-2.svg"
           alt="client logo"
           className="w-2/5 md:w-[unset]"
+          data-aos="fade-left"
+          data-aos-delay="100"
         />
         <img
           src="/images/our-clients/logo-3.svg"
           alt="client logo"
           className="w-2/5 md:w-[unset]"
+          data-aos="fade-left"
+          data-aos-delay="200"
         />
         <img
           src="/images/our-clients/logo-4.svg"
           alt="client logo"
           className="w-2/5 md:w-[unset]"
+          data-aos="fade-left"
+          data-aos-delay="300"
         />
       </div>
     </section>

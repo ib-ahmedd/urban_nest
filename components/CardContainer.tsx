@@ -7,6 +7,7 @@ function CardContainer({
   subHeading,
   width,
   flexAlign,
+  animation,
 }: CardContainerProps) {
   return (
     <section className="w-full text-center flex flex-col items-center gap-8">
@@ -18,7 +19,12 @@ function CardContainer({
         } md:flex-row flex-wrap justify-between`}
       >
         {array.map((item) => (
-          <Card key={item.title} {...item} width={width} />
+          <Card
+            key={item.title}
+            {...item}
+            width={width}
+            animation={animation}
+          />
         ))}
       </div>
     </section>

@@ -11,6 +11,7 @@ function OurTeam() {
           subHeading="Our Experts"
           width="md:w-[24%]"
           flexAlign="items-center"
+          animation="fade-up"
         />
       </div>
     </section>

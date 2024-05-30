@@ -1,11 +1,15 @@
 import { aboutArray } from "@constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 function AboutUs() {
   return (
     <section className="width_parent py-20">
       <div className="width_container flex flex-col md:flex-row justify-between">
-        <div className="flex flex-col w-full md:w-1/2 gap-8 mb-12">
+        <div
+          className="flex flex-col w-full md:w-1/2 gap-8 mb-12"
+          data-aos="fade-right"
+        >
           <h2 className="text-site-yellow">About Us</h2>
           <h3>We Are Leading International Company In The World</h3>
           <div className="flex flex-col gap-8 text-site-gray">
@@ -21,7 +25,9 @@ function AboutUs() {
               accumsan id imperdiet et, porttitor at sem.
             </p>
           </div>
-          <button className="solid_btn">OUR SERVICES</button>
+          <Link href="/services" className="solid_btn">
+            OUR SERVICES
+          </Link>
         </div>
 
         <div className="h-full flex flex-col gap-8 justify-center w-full md:w-[45%]">
@@ -29,6 +35,7 @@ function AboutUs() {
             <div
               key={item.heading}
               className="flex flex-col md:flex-row gap-4 md:gap-8 mb-8 md:mb-0"
+              data-aos="fade-left"
             >
               <div className="bg-site-yellow text-3xl h-14 w-14 shrink-0 text-white rounded-full flex items-center justify-center">
                 <FontAwesomeIcon icon={item.icon} />

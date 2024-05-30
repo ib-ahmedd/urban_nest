@@ -4,6 +4,7 @@ import CardContainer from "./CardContainer";
 import ProjectsContainer from "./ProjectsContainer";
 import Clients from "./Clients";
 import SustainabilityBgs from "./SustainabilityBgs";
+import GenericHero from "./GenericHero";
 
 export {
   Navbar,
@@ -12,4 +13,5 @@ export {
   ProjectsContainer,
   Clients,
   SustainabilityBgs,
+  GenericHero,
 };

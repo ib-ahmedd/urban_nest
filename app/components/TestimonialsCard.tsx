@@ -4,9 +4,13 @@ function TestimonialsCard({
   image,
   occupation,
   clientName,
+  animation,
 }: TestimonialsCardProps) {
   return (
-    <article className="w-full md:w-[49%] bg-site-blue border-b-8 border-site-yellow text-white p-8 md:p-12 flex flex-col gap-4 mb-4">
+    <article
+      className="w-full md:w-[49%] bg-site-blue border-b-8 border-site-yellow text-white p-8 md:p-12 flex flex-col gap-4 mb-4"
+      data-aos={animation}
+    >
       <img src={image} alt="client" className="w-16" />
       <p className="font-monteserat font-bold text-2xl">{occupation}</p>
       <h4 className="font-monteserat font-bold text-2xl text-site-yellow">

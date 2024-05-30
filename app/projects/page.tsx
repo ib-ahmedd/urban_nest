@@ -1,9 +1,20 @@
-import { Hero, ProjectsSec, Clients } from "./components";
+"use client";
+import { GenericHero, ProjectsSec, Clients } from "./components";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Projects() {
+  useEffect(() => {
+    Aos.init({
+      duration: 200,
+      easing: "ease-in-out",
+    });
+    Aos.refresh();
+  }, []);
   return (
     <main>
-      <Hero />
+      <GenericHero title="Projects" />
       <ProjectsSec />
       <Clients />
     </main>

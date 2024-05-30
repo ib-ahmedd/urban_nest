@@ -18,7 +18,7 @@ function BuildDream() {
             VIEW ALL
           </Link>
         </span>
-        <CardContainer array={homeServicesArray} />
+        <CardContainer array={homeServicesArray} animation="zoom-in" />
       </div>
     </section>
   );
