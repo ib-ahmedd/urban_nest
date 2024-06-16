@@ -28,7 +28,7 @@ function Navbar() {
           <Link href="/">
             <img src="/images/logo/logo.png" alt="site logo" className="w-40" />
           </Link>
-          <p className="text-site-yellow">Make a call: +1 (212) 255-5511</p>
+          <p className="text-site-yellow">Make a call: +2348161615860</p>
           <div className="flex gap-6 text-2xl text-site-yellow">
             <FontAwesomeIcon icon={faSquareFacebook} />
             <FontAwesomeIcon icon={faTwitter} />

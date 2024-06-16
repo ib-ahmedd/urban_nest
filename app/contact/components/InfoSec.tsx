@@ -5,9 +5,9 @@ function InfoSec() {
     <section className="width_parent flex-col mt-20 items-center">
       <h2 className="text-site-yellow mb-8">Our Branches</h2>
       <h3 className="text-site-blue">Contact Details</h3>
-      <InfoContainer location="Canada" />
-      <InfoContainer location="Denver" />
-      <InfoContainer location="Malmo" />
+      <InfoContainer location="Abuja" />
+      <InfoContainer location="Port Harcourt" />
+      <InfoContainer location="Lagos" />
     </section>
   );
 }

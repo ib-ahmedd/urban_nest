@@ -13,14 +13,14 @@ function InfoContainer({ location }: { location: string }) {
           </span>
           <span data-aos="fade-right">
             <h5 className="bold_heading">Phone:</h5>
-            <p className="text-site-gray">+1 (238) 456 7894</p>
+            <p className="text-site-gray">+2348161615860</p>
           </span>
           <span data-aos="fade-right">
             <h5 className="bold_heading">Email:</h5>
             <p className="text-site-gray">
-              contact@example.com
+              ahmed1768476@gmail.com
               <br />
-              support@example.com
+              ahmedibrahim28199@gmail.com
             </p>
           </span>
 
